@@ -1,4 +1,4 @@
-<img width="722" height="1600" alt="WhatsApp Image 2026-05-28 at 2 03 07 PM (1)" src="https://github.com/user-attachments/assets/19c60d67-6df3-4e82-979f-4aa33bcd0901" /># 🩺 Diabetes Risk Analyzer
+🩺 Diabetes Risk Analyzer
 
 > A smart Android application that estimates diabetes risk instantly using a **Fuzzy Logic Inspired Algorithm** — empowering users with health awareness through clinical data analysis and symptom assessment.
 
