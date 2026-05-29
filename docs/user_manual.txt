@@ -1,0 +1,313 @@
+USER MANUAL
+Diabetes Risk Analyzer
+Version 1.0
+Android Application
+
+================================================================
+TABLE OF CONTENTS
+================================================================
+
+1. Introduction
+2. System Requirements
+3. Installation Guide
+4. App Screens Overview
+5. Step-by-Step Usage Guide
+6. Understanding Your Results
+7. History Feature
+8. Notifications
+9. Troubleshooting
+10. Medical Disclaimer
+
+================================================================
+1. INTRODUCTION
+================================================================
+
+Diabetes Risk Analyzer is an Android application designed to
+estimate your diabetes risk level based on clinical health
+data and common diabetes symptoms. The app uses a Fuzzy Logic
+Inspired Algorithm to provide an instant risk assessment.
+
+The app analyzes the following inputs:
+- Patient name (optional)
+- Age
+- Body Mass Index (BMI)
+- Fasting Glucose Level (mg/dL)
+- 5 symptom-based questions
+
+================================================================
+2. SYSTEM REQUIREMENTS
+================================================================
+
+- Android Version: 7.0 (Nougat) or higher
+- RAM: Minimum 2 GB recommended
+- Storage: Minimum 50 MB free space
+- Screen: Any screen size supported
+
+================================================================
+3. INSTALLATION GUIDE
+================================================================
+
+METHOD A — Install from APK file:
+
+Step 1: Download the APK file from the GitHub release page
+Step 2: Open your device File Manager
+Step 3: Navigate to the Downloads folder
+Step 4: Tap on DiabetesRiskAnalyzer.apk
+Step 5: If prompted, tap "Settings" and enable
+        "Install from Unknown Sources"
+Step 6: Tap "Install"
+Step 7: Tap "Open" when installation completes
+
+METHOD B — Run from Android Studio:
+
+Step 1: Clone the project from GitHub
+Step 2: Open Android Studio
+Step 3: Open the project folder
+Step 4: Wait for Gradle sync to complete
+Step 5: Connect your Android device or start an emulator
+Step 6: Click the Run button (green triangle)
+
+================================================================
+4. APP SCREENS OVERVIEW
+================================================================
+
+The app contains the following screens:
+
+SCREEN 1 — Splash Screen
+   Shows the app logo and name for 2.5 seconds
+   Automatically navigates to the Input screen
+
+SCREEN 2 — Main Input Screen (Home)
+   Where you enter all your health information
+   Contains Patient Information section and
+   5 Symptom Assessment questions
+   Has Analyze button at the bottom
+
+SCREEN 3 — Result Screen
+   Shows your calculated risk level
+   Has two tabs: Summary and Chart
+   Summary tab: shows risk level, score, recommendation
+   Chart tab: shows Bar chart and Radar chart
+
+SCREEN 4 — History Screen
+   Shows all your past analysis results
+   Accessible from the top menu bar
+   Can be cleared from the menu
+
+================================================================
+5. STEP-BY-STEP USAGE GUIDE
+================================================================
+
+STEP 1 — OPEN THE APP
+   Launch Diabetes Risk Analyzer from your app drawer
+   The splash screen appears for 2-3 seconds
+   The main input screen opens automatically
+
+STEP 2 — ENTER PATIENT INFORMATION
+   Full Name: Type your name (this field is optional)
+   Age: Enter your age in years (e.g. 35)
+   BMI: Enter your Body Mass Index (e.g. 24.5)
+        (BMI = weight in kg / height in meters squared)
+   Glucose: Enter your fasting blood glucose level in mg/dL
+        Reference values shown below the field:
+        Normal: less than 100 mg/dL
+        Pre-diabetic: 100 to 125 mg/dL
+        Diabetic: 126 mg/dL and above
+
+STEP 3 — ANSWER 5 SYMPTOM QUESTIONS
+   For each question, select ONE option that best
+   describes your current condition:
+
+   Q1 - Daily Water Intake:
+        Select how much water you drink per day
+
+   Q2 - Urination Frequency:
+        Select how often you urinate per day
+
+   Q3 - Weight Loss (Last 6 Months):
+        Select how much weight you have lost recently
+
+   Q4 - Wound Healing Time:
+        Select how long your wounds typically take to heal
+
+   Q5 - Hunger Level:
+        Select how you would describe your hunger level
+
+   NOTE: The progress bar at the top shows how many
+   questions you have answered (0/5 to 5/5)
+
+STEP 4 — TAP ANALYZE
+   Once all fields are filled and all 5 questions answered,
+   tap the "ANALYZE MY RISK" button at the bottom
+   
+   If any field is empty, an error message will appear
+   pointing to the specific missing field
+
+STEP 5 — VIEW YOUR RESULTS
+   The Result screen opens automatically
+   
+   SUMMARY TAB shows:
+   - Risk level (LOW / MEDIUM / HIGH) with color
+   - Total score out of 26
+   - Risk meter bar
+   - Symptom score and clinical bonus breakdown
+   - Patient information summary
+   - Personalized recommendation message
+   - Notification message
+   - Per-question score breakdown with bars
+
+   CHART TAB shows:
+   - Bar chart comparing scores for all 5 symptoms
+   - Radar chart showing your overall risk profile
+
+STEP 6 — SHARE YOUR RESULT (Optional)
+   Tap the Share icon in the top right corner
+   Choose any app (WhatsApp, Email, etc.) to share
+
+STEP 7 — VIEW HISTORY
+   Tap the History icon (clock) in the top menu
+   All previous results are listed with date and time
+   Tap "Clear All" from menu to delete all history
+
+================================================================
+6. UNDERSTANDING YOUR RESULTS
+================================================================
+
+RISK LEVELS EXPLAINED:
+
+GREEN — LOW RISK (Score 7 or below)
+   Your responses indicate normal health indicators
+   Recommendation: Maintain your healthy lifestyle
+   Continue regular exercise and balanced diet
+   Schedule routine annual health check-ups
+
+YELLOW — MEDIUM RISK (Score 8 to 14)
+   Some warning signs have been detected
+   Recommendation: Take action now
+   Reduce sugar and processed food intake
+   Increase physical activity (30 min/day)
+   Monitor your blood sugar regularly
+   Consider consulting a healthcare professional
+
+RED — HIGH RISK (Score 15 or above)
+   Multiple significant risk factors detected
+   Recommendation: See a doctor IMMEDIATELY
+   Do not delay professional medical evaluation
+   Get a proper fasting blood glucose test done
+   Follow doctor's advice strictly
+
+SCORE BREAKDOWN:
+   Base Score: Sum of your 5 symptom answers (max 20)
+   Clinical Bonus: Additional points for age, glucose, BMI
+   Total Score: Base + Bonus (max 26)
+
+================================================================
+7. HISTORY FEATURE
+================================================================
+
+The app automatically saves every analysis you complete.
+
+To VIEW history:
+   Tap the History icon in the top action bar
+
+Each history record shows:
+   - Patient name
+   - Date and time of analysis
+   - Risk level (color coded)
+   - Total score
+   - Glucose level, BMI and Age
+
+To DELETE history:
+   Open History screen
+   Tap the three-dot menu (top right)
+   Tap "Clear All"
+   Confirm deletion
+
+NOTE: History is stored locally on your device.
+Uninstalling the app will delete all history.
+
+================================================================
+8. NOTIFICATIONS
+================================================================
+
+After every analysis, the app sends a push notification
+to your device status bar.
+
+Notification types:
+   LOW RISK:    Normal notification with green checkmark
+   MEDIUM RISK: Warning notification with yellow alert
+   HIGH RISK:   Urgent alert with red emergency symbol
+
+To enable notifications (Android 13+):
+   When prompted, tap "Allow" for notification permission
+   Or go to Phone Settings > Apps > Diabetes Risk Analyzer
+   > Notifications > Enable All
+
+================================================================
+9. TROUBLESHOOTING
+================================================================
+
+PROBLEM: App crashes on opening
+SOLUTION: Restart your device and try again
+          Make sure you have Android 7.0 or higher
+
+PROBLEM: Analyze button not working
+SOLUTION: Make sure ALL 5 symptom questions are answered
+          Make sure age, glucose, and BMI fields are filled
+          Check for red error messages under each field
+
+PROBLEM: No notification appearing
+SOLUTION: Check notification permission in phone settings
+          Go to Settings > Apps > Diabetes Risk Analyzer
+          Enable Notifications
+
+PROBLEM: History screen is empty
+SOLUTION: You need to complete at least one analysis first
+          History saves automatically after each analysis
+
+PROBLEM: Charts not showing
+SOLUTION: Swipe to the Chart tab on the Result screen
+          Charts animate automatically after 1 second
+
+PROBLEM: BMI field — what value to enter
+SOLUTION: Calculate BMI = weight(kg) / height(m) squared
+          Example: 70 kg, 1.75 m tall
+          BMI = 70 / (1.75 x 1.75) = 22.9
+
+================================================================
+10. MEDICAL DISCLAIMER
+================================================================
+
+IMPORTANT — PLEASE READ CAREFULLY
+
+This application is developed for EDUCATIONAL and AWARENESS
+purposes ONLY.
+
+The Diabetes Risk Analyzer:
+- Does NOT provide medical diagnosis
+- Does NOT replace professional medical advice
+- Does NOT prescribe any treatment or medication
+- Is based on a simplified educational algorithm
+
+The results provided by this app are ESTIMATES only and
+may not accurately reflect your actual medical condition.
+
+ALWAYS consult a qualified, licensed medical professional
+(doctor, endocrinologist, or healthcare provider) for:
+- Proper diagnosis of diabetes or pre-diabetes
+- Blood tests and clinical examination
+- Treatment plans and medication
+- Dietary and lifestyle recommendations
+
+If you are experiencing symptoms of diabetes such as
+extreme thirst, frequent urination, unexplained weight
+loss, or blurred vision — seek medical attention
+IMMEDIATELY regardless of what this app shows.
+
+================================================================
+
+Thank you for using Diabetes Risk Analyzer.
+For support or feedback, visit:
+https://github.com/mahr168/Android_project
+
+================================================================

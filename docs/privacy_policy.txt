@@ -1,0 +1,144 @@
+PRIVACY POLICY
+Diabetes Risk Analyzer
+Version 1.0
+Effective Date: 2025
+
+================================================================
+1. INTRODUCTION
+================================================================
+
+This Privacy Policy describes how the Diabetes Risk Analyzer
+application ("the App") handles information provided by users.
+
+By using this application, you agree to the terms described in
+this Privacy Policy.
+
+================================================================
+2. INFORMATION WE COLLECT
+================================================================
+
+The Diabetes Risk Analyzer app may collect the following
+information that you voluntarily provide:
+
+- Full Name (optional)
+- Age
+- Body Mass Index (BMI)
+- Fasting Glucose Level
+- Symptom responses (water intake, urination frequency,
+  weight loss, wound healing time, hunger level)
+
+================================================================
+3. HOW WE USE YOUR INFORMATION
+================================================================
+
+All information entered into the app is used ONLY for:
+
+- Calculating your diabetes risk level
+- Storing your result history locally on your device
+- Displaying past results in the History screen
+
+Your data is NEVER used for:
+- Advertising or marketing purposes
+- Selling to third parties
+- Analytics or tracking
+- Any commercial purpose
+
+================================================================
+4. DATA STORAGE
+================================================================
+
+All data entered in this application is stored LOCALLY on your
+device only using Android Room Database (SQLite).
+
+- No data is transmitted to any external server
+- No data is uploaded to the internet
+- No cloud storage is used
+- No Firebase or remote database is connected
+
+Your data remains entirely on your device and under your control.
+
+================================================================
+5. DATA SHARING
+================================================================
+
+We do NOT share your personal information with:
+
+- Third-party companies
+- Advertisers
+- Government agencies
+- Any other individuals or organizations
+
+The only exception is if you voluntarily use the "Share Result"
+feature, which allows you to share your result text via apps
+of your own choice (WhatsApp, Email, etc.).
+
+================================================================
+6. DATA SECURITY
+================================================================
+
+Since all data is stored locally on your device, the security
+of your data depends on your device security settings.
+
+We recommend:
+- Using a screen lock on your device
+- Keeping your device software updated
+- Not sharing your device with untrusted individuals
+
+================================================================
+7. CHILDREN'S PRIVACY
+================================================================
+
+This app is suitable for users of all ages. We do not
+knowingly collect personal information from children under
+the age of 13 without parental consent.
+
+================================================================
+8. MEDICAL DISCLAIMER
+================================================================
+
+IMPORTANT: This application is developed for EDUCATIONAL and
+AWARENESS purposes only.
+
+The risk assessment provided by this app:
+- Is based on a simplified algorithm
+- Is NOT a medical diagnosis
+- Should NOT replace professional medical advice
+- Should NOT be used for medical treatment decisions
+
+Always consult a qualified and licensed healthcare professional
+for proper medical evaluation, diagnosis, and treatment.
+
+================================================================
+9. CHANGES TO THIS PRIVACY POLICY
+================================================================
+
+We may update this Privacy Policy from time to time. Any
+changes will be reflected in updated versions of the app.
+We encourage you to review this policy periodically.
+
+================================================================
+10. CONTACT INFORMATION
+================================================================
+
+If you have any questions about this Privacy Policy, please
+contact the developer through:
+
+GitHub: https://github.com/mahr168
+
+================================================================
+11. YOUR RIGHTS
+================================================================
+
+You have the right to:
+- Clear all stored data at any time using the
+  "Clear History" option in the app
+- Uninstall the app to remove all locally stored data
+- Request information about what data is stored
+
+================================================================
+
+This Privacy Policy was last updated in 2025.
+By using the Diabetes Risk Analyzer app, you acknowledge
+that you have read and understood this Privacy Policy.
+
+================================================================
