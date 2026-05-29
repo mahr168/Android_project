@@ -1,4 +1,4 @@
-# 🩺 Diabetes Risk Analyzer
+<img width="722" height="1600" alt="WhatsApp Image 2026-05-28 at 2 03 07 PM (1)" src="https://github.com/user-attachments/assets/19c60d67-6df3-4e82-979f-4aa33bcd0901" /># 🩺 Diabetes Risk Analyzer
 
 > A smart Android application that estimates diabetes risk instantly using a **Fuzzy Logic Inspired Algorithm** — empowering users with health awareness through clinical data analysis and symptom assessment.
 
@@ -18,11 +18,18 @@ This app is designed for general users who want to monitor their health, student
 
 | Splash Screen | Input Form | Input Form (Symptoms) |
 |:---:|:---:|:---:|
-| ![Splash](screenshots/splash_screen.png) | ![Input](screenshots/input_screen.png) | ![Symptoms](screenshots/symptoms_screen.png) |
+| ![Splash](![Uploading What<img width="722" height="1600" alt="WhatsApp Image 2026-05-28 at 2 03 07 PM (2)" src="https://github.com/user-attachments/assets/78d41f01-d594-4465-bab3-0553dce01589" />
+) | ![Input](!<img width="722" height="1600" alt="WhatsApp Image 2026-05-28 at 2 03 08 PM" src="https://github.com/user-attachments/assets/91c259f1-358c-4cf3-be80-611ed26ab492" />
+<img width="722" height="1600" alt="WhatsApp Image 2026-05-28 at 2 03 07 PM (1)" src="https://github.com/user-attachments/assets/baaa74b8-a07f-491c-a129-49130cdb0246" />
+
+) | ![Symptoms](<img width="722" height="1600" alt="WhatsApp Image 2026-05-28 at 2 03 07 PM" src="https://github.com/user-attachments/assets/3b7575f8-5881-4392-9f36-d6d0f10cc52a" />
+) |
 
 | Result - Summary | Result - Charts | History |
 |:---:|:---:|:---:|
-| ![Summary](screenshots/result_summary.png) | ![Charts](screenshots/result_charts.png) | ![History](screenshots/history_screen.png) |
+| ![Summary](<img width="722" height="1600" alt="WhatsApp Image 2026-05-28 at 2 03 08 PM (2)" src="https://github.com/user-attachments/assets/6e5121c8-30d9-4ed0-a93c-49a89b1083f1" />
+<img width="722" height="1600" alt="WhatsApp Image 2026-05-28 at 2 03 08 PM (1)" src="https://github.com/user-attachments/assets/98cb158c-90af-4148-81eb-15fbee054ca9" />
+) | |
 
 ---
 
